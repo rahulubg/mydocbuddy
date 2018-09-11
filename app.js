@@ -3,7 +3,7 @@ const restify = require('restify');
 
 // Create server
 let server = restify.createServer();
-server.listen(process.env.port || process.env.PORT || 3978, function () {
+server.listen(process.env.port || process.env.PORT || 8080, function () {
     console.log(`${server.name} listening to ${server.url}`);
 });
 
