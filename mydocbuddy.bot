@@ -1,13 +1,13 @@
 {
   "name": "mydocbuddy",
-  "secretKey": "",
+  "secretKey": "KH-mityKxy0.cwA.9yg.S9xwdo3J9PVTdu5VCcoz3529OvxnbyzyuVmzHmAiUyA",
   "services": [
     {
-      "appId": "",
-      "id": "http://localhost:3978/api/messages",
+      "appId": "2318f743-e8cb-4adb-9c74-54067d287761",
+      "id": "https://mydocbuddy.azurewebsites.net/api/messages",
       "type": "endpoint",
-      "appPassword": "",
-      "endpoint": "http://localhost:3978/api/messages",
+      "appPassword": "hfKVEMHEW6366#)~oieqn2:",
+      "endpoint": "https://mydocbuddy.azurewebsites.net/api/messages",
       "name": "mydocbuddy"
     }
   ]
