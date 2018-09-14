@@ -9,7 +9,7 @@ server.listen(process.env.port || process.env.PORT || 3978, function () {
 
 // Create adapter
 const adapter = new BotFrameworkAdapter({ 
-    appId: c8cd0ad4-daf3-4ad8-bec4-3aa34684c4c4, 
+    appId: process.env.MICROSOFT_APP_ID, 
     appPassword: rbLTUPPM627bfowdD03)_#| 
 });
 
